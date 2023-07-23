@@ -1,0 +1,42 @@
+.skill-categories {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.category-heading {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 16px;
+}
+
+.category-skills {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.skill-container {
+    width: 90px;
+    height: 86px;
+    text-align: center;
+    border-radius: 4px;
+    background: #474848;
+}
+
+.skill-container .skill-logo {
+    width: 32px;
+    height: 32px;
+    margin: 14px 0 4px;
+}
+
+.skill-container .skill-name {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media (max-width: 575px) {
+    .category-skills {
+        gap: 12px;
+    }
+}

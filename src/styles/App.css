@@ -1,0 +1,13 @@
+.page-container {
+    max-width: 1920px;
+    margin: auto;
+    padding: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}

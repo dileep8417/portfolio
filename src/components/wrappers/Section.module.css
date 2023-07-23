@@ -1,0 +1,50 @@
+.section {
+    margin: 128px 48px 0;
+}
+
+.sectionHeading {
+    position: relative;
+    margin: 0 0 32px 53px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.sectionHeading::before {
+    content: "";
+    width: 45px;
+    height: 3px;
+    background-color: var(--text-color);
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: -53px;
+}
+
+.sectionContent {
+    padding: 0 0 0 53px;
+}
+
+@media (max-width: 767px) {
+    .section {
+        margin: 72px 32px 0;
+    }
+
+    .sectionHeading::before {
+        content: unset;
+    }
+
+    .sectionHeading {
+        margin: 0 0 24px;
+        font-size: 24px;
+    }
+    
+    .sectionContent {
+        padding: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .section {
+        margin: 72px 24px 0;
+    }
+}

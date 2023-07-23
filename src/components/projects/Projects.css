@@ -1,0 +1,165 @@
+.projects-container {
+    display: flex;
+    gap: 52px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    max-width: 682px;
+    width: 100%;
+    height: 564px;
+    border-radius: 6px;
+    background-color: #474848;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    overflow: hidden;
+}
+
+.project-card .card-header {
+    border-radius: 6px 6px 0 0;
+    margin: 32px 32px 0;
+    display: flex;
+    flex-direction: column;
+    height: 378px;
+}
+
+.project-content {
+    flex: 1;
+}
+
+.project-card .card-footer {
+    margin: 0 32px;
+    background-color: #fff;
+    height: 100%;
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;
+}
+
+.project-title {
+    margin: 0 0 16px;
+    color: var(--primary-color);
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.project-card .card-header .links {
+    display: flex;
+    gap: 32px;
+    font-size: 14px;
+}
+
+.project-card .card-header .links a {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.project-card .card-header .links a .icon{
+    color: #fff;
+    font-size: 16px;
+}
+
+.project-card .card-header .project-description {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.project-features {
+    display: flex;
+    gap: 8px;
+    font-size: 12px;
+    flex-wrap: wrap;
+    margin: 16px 0;
+}
+
+.project-features .feature {
+    padding: 4px 11px;
+    background-color: var(--page-color);
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.card-footer img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1570px) {
+    .projects-container {
+        gap: 32px;
+    }
+
+    .project-card {
+        max-width: 582px;
+        height: 524px;
+    }
+}
+
+@media (max-width: 1370px) {
+    .projects-container {
+        gap: 32px;
+    }
+
+    .project-card {
+        max-width: 482px;
+        height: 482px;
+    }
+
+    .project-card .card-header {
+        height: 429px;
+    }
+}
+
+@media (max-width: 1145px) {
+    .projects-container {
+        gap: 42px;
+        justify-content: center;
+    }
+
+    .project-card {
+        max-width: 682px;
+        height: 564px;
+    }
+
+    .project-card .card-header {
+        height: auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .project-card {
+        height: 514px;
+        gap: 0;
+        flex-direction: column-reverse;
+    }
+
+    .project-card .card-header {
+        margin: 16px;
+    }
+
+    .project-title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .project-card .card-header .project-description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .project-card .card-footer {
+        margin: 0;
+    }
+
+    .project-card .card-header .links {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+    
+    .project-card .card-header .links a {
+        font-size: 12px;
+        padding: 11px 14px;
+    }
+}

@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+:root {
+    --page-color: #333737;
+    --primary-color: #18C6C8;
+    --secondary-color: #D9D9D9;
+    --text-color: #FCFCFC;
+}
+
+body {
+    background-color: var(--page-color);
+    color: var(--text-color);
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.btn {
+    border-radius: 4px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 12px 16px;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.primary-btn {
+    background: #34BAC1;
+}
+
+.teritory-btn {
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+}

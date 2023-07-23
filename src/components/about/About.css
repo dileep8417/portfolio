@@ -1,0 +1,140 @@
+.about-section {
+    display: flex;
+    margin: 172px 48px 0;
+    min-height: 542px;
+    border-left: 6px solid var(--secondary-color);
+    gap: 152px;
+}
+
+.about-section .left-container {
+    padding: 90px 0 0 98px;
+}
+
+.about-section .left-container .btn-container {
+    display: flex;
+    gap: 48px;
+    flex-wrap: wrap;
+    row-gap: 24px;
+}
+
+.about-section .left-container .heading {
+    font-size: 62px;
+    font-weight: 700;
+    margin: 0 0 12px;
+}
+
+.about-section .left-container p span {
+    color: var(--primary-color);   
+}
+
+.about-section .left-container .description {
+    max-width: 730px;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+    margin: 14px 0 24px;
+}
+
+.icon-btn {
+    padding: 14px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 3px;
+    border: 2px solid var(--primary-color);
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.icon-btn .icon {
+   color: var(--text-color);
+   width: 24px;
+   height: 24px;
+}
+
+.into-animation {
+    max-width: 450px;
+    max-height: 450px;
+}
+
+
+@media (max-width: 1270px) {
+    .about-section {
+        gap: 48px;
+    }
+
+    .about-section .left-container {
+        padding: 90px 0 0 42px;
+    }
+
+    .about-section .left-container .heading {
+        font-size: 52px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .about-section {
+        margin: 24px 48px 0;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .about-section .left-container .description {
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .about-section {
+        margin: 80px 32px 0;
+        border-left: none;
+        height: auto;
+    }
+
+    .about-section .left-container {
+        padding: 0;
+        width: 100%;
+    }
+
+    .about-section .left-container .description {
+        max-width: 100%;
+    }
+    
+    .know-more-btn {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .about-section {
+        margin: 72px 24px 0;
+    }
+
+    .about-section .left-container .description {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 16px 0 32px;
+    }
+
+    .about-section .left-container .heading {
+        font-size: 32px;
+    }
+
+    .about-section .left-container .btn-container {
+        gap: 24px;
+    }
+
+    .icon-btn {
+        padding: 11px 16px;
+        font-size: 14px;
+    }
+
+    .icon-btn .icon {
+        width: 16px;
+        height: 16px;
+    }
+}
+
