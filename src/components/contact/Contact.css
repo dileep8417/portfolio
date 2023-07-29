@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     gap: 42px;
-    margin: 0 0 328px;
+    margin: 0 0 248px;
 }
 
 .contact-section .left {
@@ -95,5 +95,6 @@ form button {
 @media (max-width: 645px) {
     .contact-section {
         flex-direction: column;
+        margin: 0 0 42px;
     }
 }

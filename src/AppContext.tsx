@@ -10,7 +10,7 @@ type contextState = {
     setIsLoading: React.Dispatch<React.SetStateAction<boolean>>
 };
 
-const context = createContext<contextState | null>(null); 
+const context = createContext<contextState>({} as contextState);
 
 const AppContext = ({ children }: AppContextProps) => {
 

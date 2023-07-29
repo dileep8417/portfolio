@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import SplashScreen from './components/SplashScreen';
 import Content from './components/Content';
 import './styles/App.css';

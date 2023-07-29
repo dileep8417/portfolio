@@ -1,5 +1,6 @@
 import React, { Suspense, lazy } from 'react';
 import { useAppContext } from '../AppContext';
+import Footer from './Footer';
 
 const Navbar = lazy(() => import('./Navbar'));
 
@@ -12,7 +13,7 @@ const Projects = lazy(() => import('./projects/Projects'));
 const Contact = lazy(() => import('./contact/Contact'));
 
 const Content = function() {
-    const { isLoading }: boolean = useAppContext();
+    const { isLoading } = useAppContext();
 
     return (
         <div className={isLoading ? 'hide' : 'show'}>
@@ -36,6 +37,7 @@ const Content = function() {
                     <Contact />
                 </Suspense>
             </main>
+            <Footer />
         </div>
     );
 }

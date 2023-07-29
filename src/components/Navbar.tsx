@@ -23,7 +23,7 @@ const Navbar = function() {
                         to={targetSection}
                         spy={true}
                         smooth={true}
-                        offset={-150}
+                        offset={ link === 'Contact' ? -180 : -120}
                         hashSpy={true}
                         duration={500}
                     >
