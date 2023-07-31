@@ -29,7 +29,7 @@ const About = function() {
                 <p className="description">{description}</p>
 
                 <div className="btn-container">
-                    <button className="icon-btn">Resume <AiOutlineDownload className='icon' /></button>
+                    <a href={resumeLink} target="_blank" className="icon-btn">Resume <AiOutlineDownload className='icon' /></a>
                     <a href={githubLink} target="_blank" className="icon-btn">Github <AiFillGithub className='icon' /></a>
                     <Link className="icon-btn know-more-btn"
                         to='skills-section'
