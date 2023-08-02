@@ -31,7 +31,7 @@ export const projects = [
         description: 'An e-commerce application developed with React, TypeScript, and Redux Toolkit, providing users with a platform to shop for a wide range of products.',
         workLinks: {
             sourceCode: 'https://github.com/dileep8417/shopper',
-            demo: 'https://github.com/dileep8417/shopper'
+            demo: 'https://dileep8417.github.io/shopper'
         },
         image: shopperImg,
         features: ['Authentication', 'Product Search', 'Whishlist', 'Checkout', 'Accounts'],
@@ -42,7 +42,7 @@ export const projects = [
         description: 'A Node.js API powered by MongoDB, to track the status of sent emails, including whether they have been opened by the recipient and if any links were clicked.',
         workLinks: {
             sourceCode: 'https://github.com/dileep8417/mail-tracker-api',
-            demo: 'https://dileep8417.github.io/my_recipes/'
+            demo: 'https://mail-tracker-api.onrender.com/'
         },
         image: mailTrackerImg,
         features: ['Mail Tracking', 'Links Tracking'],
